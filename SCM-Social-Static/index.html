@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070709" />
+  <meta name="description" content="m1chill – Social-Profil" />
+  <title>m1chill – Socials</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./config.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="social-page-root" id="socialPage">
+    <div id="backgroundLayer" aria-hidden="true">
+      <div class="social-bg-gradient"></div>
+    </div>
+    <div class="social-bg-overlay" id="backgroundOverlay" aria-hidden="true"></div>
+
+    <main class="social-page-content">
+      <section class="social-profile-card card-style-gunslol" id="profileCard" aria-live="polite">
+        <div class="social-avatar-wrap">
+          <img id="avatar" class="social-avatar-img" alt="Profilbild" />
+          <span id="statusIndicator" class="social-status-indicator" title="Status: online"></span>
+        </div>
+
+        <header class="social-user-header">
+          <div class="social-display-name-row">
+            <h1 class="social-display-name" id="displayName">m1chill</h1>
+            <span id="verifiedBadge" title="Verifiziertes Profil" aria-label="Verifiziertes Profil">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+          </div>
+          <span class="social-user-tag" id="username">@m1chill</span>
+        </header>
+
+        <div class="social-role-pill" id="rolePill">🛡️ Teammitglied</div>
+        <p class="social-bio-text" id="bioText" hidden></p>
+
+        <button class="social-audio-player-pill" id="audioButton" type="button" hidden>
+          <span class="audio-equalizer" id="audioEqualizer" aria-hidden="true"><span class="equalizer-bar"></span><span class="equalizer-bar"></span><span class="equalizer-bar"></span></span>
+          <span class="audio-player-title" id="audioTitle">Hintergrundmusik</span>
+          <span class="audio-player-icon" id="audioIcon" aria-hidden="true">♫</span>
+        </button>
+
+        <button class="social-audio-player-pill" id="videoSoundButton" type="button" hidden>
+          <span class="audio-equalizer" id="videoEqualizer" aria-hidden="true"><span class="equalizer-bar"></span><span class="equalizer-bar"></span><span class="equalizer-bar"></span></span>
+          <span class="audio-player-title" id="videoSoundTitle">Video-Ton stumm</span>
+          <span class="audio-player-icon" id="videoSoundIcon" aria-hidden="true">♫</span>
+        </button>
+
+        <nav class="social-buttons-list" id="socialLinks" aria-label="Social-Media-Links"></nav>
+        <div class="social-card-footer" id="profileFooter" hidden></div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
