@@ -8,7 +8,7 @@ window.SOCIAL_PROFILE = {
   displayName: "Dein Name",
   avatar: "", // z. B. "https://..." oder "./avatar.png"
   status: "online", // online | idle | dnd | offline
-  role: "SCM Teammitglied",
+  role: "Socials",
   roleColor: "#818cf8",
   bio: "Hier kannst du deine Beschreibung eintragen.\nAuch ein Zeilenumbruch ist möglich.",
 
