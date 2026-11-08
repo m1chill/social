@@ -4,13 +4,13 @@
  */
 window.SOCIAL_PROFILE = {
   // Profil
-  username: "deinname",
-  displayName: "Dein Name",
+  username: "m1chill",
+  displayName: "M1chill",
   avatar: "", // z. B. "https://..." oder "./avatar.png"
   status: "online", // online | idle | dnd | offline
   role: "Socials",
   roleColor: "#818cf8",
-  bio: "Hier kannst du deine Beschreibung eintragen.\nAuch ein Zeilenumbruch ist möglich.",
+  bio: ".",
 
   // Darstellung: gunslol | glass | minimal
   cardStyle: "gunslol",
@@ -34,11 +34,11 @@ window.SOCIAL_PROFILE = {
     discord:    { url: "", handle: "" },
     twitch:     { url: "", handle: "" },
     youtube:    { url: "", handle: "" },
-    tiktok:     { url: "", handle: "" },
-    instagram:  { url: "", handle: "" },
+    tiktok:     { url: "", handle: "https://www.tiktok.com/@m1chill_" },
+    instagram:  { url: "", handle: "https://www.instagram.com/m1chill_/" },
     x:          { url: "", handle: "" },
-    spotify:    { url: "", handle: "" },
-    steam:      { url: "", handle: "" },
+    spotify:    { url: "", handle: "https://open.spotify.com/intl-de/artist/5bJbYpIOmxvMxjIvc2gOBp?si=BUB0GdwHSum48WEFPmhGTw" },
+    steam:      { url: "", handle: "https://steamcommunity.com/profiles/76561199509607824/" },
     github:     { url: "", handle: "" },
     kick:       { url: "", handle: "" },
     soundcloud: { url: "", handle: "" }
